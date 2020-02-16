@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_delete"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/list"
+    tools:context="com.example.user.pipilika.DeleteActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter The Id Of The Book To Delete: "
+        android:textColor="#eddc19"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/enter_id"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="  Id.....   "
+        android:textColorHint="#dc2727"
+        android:textSize="35sp"
+
+        android:background="#e6cc64"
+        android:layout_below="@+id/enter_id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/delete_tf"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_button"
+        android:text="DELETE"
+        android:textColor="#d41111"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="#e6cc64"
+        />
+
+
+</RelativeLayout>

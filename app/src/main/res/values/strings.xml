@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pipilika</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_activity_sign_up">sign_up</string>
+    <string name="title_activity_search">search</string>
+    <string name="title_activity_add_book">add_book</string>
+    <string name="title_activity_admin_option">admin_option</string>
+    <string name="title_activity_user_option">user_option</string>
+    <string name="title_activity_option_user">option_user</string>
+    <string name="title_activity_delete">delete</string>
+    <string name="title_activity_list">ListActivity</string>
+</resources>

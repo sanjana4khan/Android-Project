@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.pipilika">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_screenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".Sign_upActivity"
+            android:label="@string/title_activity_sign_up" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Add_bookActivity"
+            android:label="@string/title_activity_add_book" />
+        <activity
+            android:name=".Admin_optionActivity"
+            android:label="@string/title_activity_admin_option" />
+        <activity
+            android:name=".DeleteActivity"
+            android:label="@string/title_activity_delete" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".ListActivity2" />
+        <activity
+            android:name=".UserOption"
+            android:label="@string/title_activity_user_option" />
+        <activity android:name=".BookDetails"></activity>
+    </application>
+
+</manifest>

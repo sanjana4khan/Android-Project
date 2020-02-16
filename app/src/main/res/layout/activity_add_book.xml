@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_book"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/add_book"
+    tools:context="com.example.user.pipilika.Add_bookActivity">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/edition"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:hint="Edition"
+        android:textColorHint="#302323"
+        android:layout_above="@+id/add_book"
+        android:layout_alignLeft="@+id/author"
+        android:layout_marginBottom="30dp" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/author"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColorHint="#302323"
+        android:hint="Author"
+        android:layout_above="@+id/edition"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/book_name"
+        android:textColorHint="#302323"
+        android:textSize="40dp"
+        android:hint="Book Name"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_above="@+id/author"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/add_book"
+        android:textSize="45dp"
+        android:text="Add Book"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:background="#05aaaaaa"
+        android:textColor="#848383"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="ADD A BOOK.."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:textColor="#b13c50"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        android:id="@+id/text_addbook"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
